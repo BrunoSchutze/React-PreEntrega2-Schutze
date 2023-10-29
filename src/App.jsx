@@ -3,6 +3,7 @@ import Contador from './componentes/Contador/Contador';
 import ItemListContainer from './componentes/ItemListContainer/ItemListContainer';
 import ItemDetailContainer from './componentes/ItemDetailContainer/ItemDetailContainer';
 import NavBar from './componentes/NavBar/NavBar';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { CarritoProvider} from './context/CarritoContext';
 import Cart from './componentes/Cart/Cart';

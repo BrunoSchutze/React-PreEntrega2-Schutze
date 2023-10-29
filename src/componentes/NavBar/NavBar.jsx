@@ -1,6 +1,8 @@
 import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
+import Carousel from 'react-bootstrap/Carousel';
+import ExampleCarouselImage from 'components/ExampleCarouselImage';
 
 const NavBar = () => {
   return (
@@ -30,7 +32,10 @@ const NavBar = () => {
         </ul>
       </nav>
 
+      
+
       <CartWidget />
+
     </header>
   )
 }

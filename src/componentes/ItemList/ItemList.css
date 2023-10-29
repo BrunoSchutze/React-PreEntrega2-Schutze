@@ -1,7 +1,4 @@
 .contenedorProductos {
     display: flex;
     flex-wrap: wrap;
-    background-color: url('../../../public/img/fondo.jpg');
-    background-size: cover; /* Otra propiedad opcional para ajustar el tamaño de la imagen */
-    background-repeat: no-repeat; /* Otra propiedad opcional para evitar la repetición de la imagen */
 }
