@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 0px;
+    background-color: #202020;
+    
+}
+
+.logoMarca {
+    width: 150px;
+    height: 80px;
+}
+
+.carrito{
+    width: 30px;
+}
+
+li {
+    display: inline-block;
+    margin: 0 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
