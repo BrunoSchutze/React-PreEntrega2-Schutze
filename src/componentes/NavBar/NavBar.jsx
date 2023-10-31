@@ -1,8 +1,7 @@
 import CartWidget from '../CartWidget/CartWidget';
 import './NavBar.css';
 import { Link, NavLink } from 'react-router-dom';
-import Carousel from 'react-bootstrap/Carousel';
-import ExampleCarouselImage from 'components/ExampleCarouselImage';
+
 
 const NavBar = () => {
   return (
@@ -14,19 +13,19 @@ const NavBar = () => {
       <nav>
         <ul>
           <li>
-            <NavLink to="categoria/1"> Home </NavLink>
+            <NavLink className="nav-link" to="categoria/1"> Home </NavLink>
           </li>
 
           <li>
-            <NavLink to="categoria/2"> Zapatillas </NavLink>
+            <NavLink className="nav-link" to="categoria/2"> Zapatillas </NavLink>
           </li>
 
           <li>
-            <NavLink to="categoria/3"> Medias </NavLink>
+            <NavLink className="nav-link" to="categoria/3"> Medias </NavLink>
           </li>
 
           <li>
-            <NavLink to="categoria/4"> Cordones </NavLink>
+            <NavLink className="nav-link" to="categoria/4"> Cordones </NavLink>
           </li>
           
         </ul>
