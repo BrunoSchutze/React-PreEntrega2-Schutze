@@ -40,9 +40,6 @@ const ItemDetail = ({ id, nombre, stock, precio, img }) => {
       <img src={img} alt={nombre} />
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias numquam hic molestiae laudantium non provident maxime magni debitis sapiente! Pariatur illum tempore excepturi asperiores, officiis magnam ex placeat quibusdam necessitatibus?</p>
 
-      {
-        //Acá empleamos la lógica de montaje y desmontaje del contador
-      }
 
       {
         agregarCantidad > 0 ? (<Link to="/cart">Terminar Compra</Link>) : (<Contador inicial={1} stock={stock} funcionAgregar={manejadorCantidad}/>)
